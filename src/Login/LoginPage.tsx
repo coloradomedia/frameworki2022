@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
     return (
@@ -19,13 +19,11 @@ const LoginPage = () => {
                 </label>
                 <input type='password' id='login' className='rounded w-[250px] h-8 bg-slate-700 px-2' placeholder='password' />
             </div>
-            <Router>
-                <Link to='/dashboard'>
-                    <button type='submit' className='bg-slate-500 rounded px-5 py-1.5 mt-3 hover:bg-slate-700'>
-                        Sign In
-                    </button>
-                </Link>
-            </Router>
+            <Link to='/dashboard'>
+                <button type='submit' className='bg-slate-500 rounded px-5 py-1.5 mt-3 hover:bg-slate-700'>
+                    Sign In
+                </button>
+            </Link>
         </div>
     );
 };
