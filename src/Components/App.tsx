@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
-import LoginPage from './Login/LoginPage';
+import LoginPage from './Pages/Login/LoginPage';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import HomePage from './Pages/Home/HomePage';
 
 const router = createBrowserRouter([
     {
@@ -9,8 +9,8 @@ const router = createBrowserRouter([
         element: <LoginPage />,
     },
     {
-        path: '/dashboard',
-        element: <LoginPage />,
+        path: '/home',
+        element: <HomePage />,
     },
 ]);
 
