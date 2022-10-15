@@ -30,7 +30,7 @@ const RegisterPage = () => {
                 </button>
             </Link>
             <div className='mt-5 opacity-60'>
-                You on Photogram already? &nbsp;
+                You on Photogram already?&nbsp;
                 <Link to='/login' className='underline'>
                     Sign In.
                 </Link>

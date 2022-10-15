@@ -24,7 +24,7 @@ const LoginPage = () => {
                 </button>
             </Link>
             <div className='mt-5 opacity-60'>
-                You don't have an account yet? &nbsp;
+                You don't have an account yet?&nbsp;
                 <Link to='/register' className='underline'>
                     Sign Up.
                 </Link>
